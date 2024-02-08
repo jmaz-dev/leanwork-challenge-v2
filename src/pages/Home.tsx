@@ -6,7 +6,7 @@ const Home = () => {
   <main className="main-layout">
    <section className="main-container">
     <aside className="hero">
-     <img src="/public/bg.jpg" alt="" />
+     <img src="/bg.jpg" alt="" />
      <span className="hero__overlay"></span>
     </aside>
     <div className="form__container">
