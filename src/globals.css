@@ -69,6 +69,39 @@ h2 {
  display: flex;
  justify-content: center;
 }
+label {
+ color: #999999;
+}
+input[type="text"],
+input[type="email"] {
+ display: block;
+ width: 100%;
+ padding: 0.6rem 0rem;
+ line-height: 0.5;
+ font-weight: 400;
+ color: #efeeed;
+ border: none;
+ border-radius: 0;
+ border-bottom: 2px solid #dbdbdb;
+
+ box-sizing: border-box;
+ outline: none;
+}
+
+input[type="text"]:focus-visible {
+ color: #555555;
+}
+.form__style {
+ display: flex;
+ flex-direction: column;
+ gap: 0.8rem;
+}
+.validation__field {
+ color: red;
+ margin: 0.3rem 0;
+}
+.btn-primary {
+}
 
 @media (min-width: 768px) {
  .form__container {
